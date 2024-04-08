@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <img class ="logo-img" src="https://sujeitoprogramador.com/steve.png" alt="foto do usuário">
+    </header>
+    <nav>
+      <button>
+        <span>
+          <i class="material-symbols-outlined">Home</i>
+          <span> Home</span>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <i class="material-symbols-outlined">tag</i>
+          <span>Explorar</span>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <i class="material-symbols-outlined">email</i>
+          <span>Mensagens</span>
+        </span>
+      </button>
+
+      <button>
+        <span>
+          <i class="material-symbols-outlined">person</i>
+          <span>Profile</span>
+        </span>
+      </button>
+
+      
+
+    </nav>
+  </aside>
+
+  <!--Menu mobile-->
+  <button class="button-mobile" onclick="toggleMenu()">
+    <i class="material-symbols-outlined">menu</i>
+    <span>Menu</span>
+  </button>
+
+  <nav class="menu-mobile" id="menu-mobile">
+    <button class="button-close" onclick="toggleMenu()">
+      <span>
+        <i class="material-symbols-outlined">close</i>
+      </span>
+    </button>
+
+    <button>
+      <span>
+        <i class="material-symbols-outlined">Home</i>
+        <span class="mobile-text"> Home</span>
+      </span>
+    </button>
+
+    <button>
+      <span>
+        <i class="material-symbols-outlined">tag</i>
+        <span class="mobile-text">Explorar</span>
+      </span>
+    </button>
+
+    <button>
+      <span>
+        <i class="material-symbols-outlined">email</i>
+        <span class="mobile-text">Mensagens</span>
+      </span>
+    </button>
+
+    <button>
+      <span>
+        <i class="material-symbols-outlined">person</i>
+        <span class="mobile-text">Profile</span>
+      </span>
+    </button>
+    
+  </nav>
+  <main class="main">
+    <h1> Projetos</h1>
+
+    <section class="projetos">
+      <ul class="projetos-lista">
+        <li><a class="projetos-link" href="https://gabrielsouzacastro.github.io/menu-responsivo/">Menu responsivo</a></li>
+        <li><a class="projetos-link" href="https://gabrielsouzacastro.github.io/formulario-com-validacao/">Formuário com validação</a></li>
+        <li><a class="projetos-link" href="https://gabrielsouzacastro.github.io/gerador-senha/">Gerador de senha</a></li>
+        <li><a class="projetos-link" href="https://gabrielsouzacastro.github.io/Pokedex/">Pokedex</a></li>
+        <li><a class="projetos-link" href="https://gabrielsouzacastro.github.io/Receitas/">Receitas</a></li>       
+      </ul>
+    </section>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
